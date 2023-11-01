@@ -1,0 +1,199 @@
+[
+{
+    "model": "discounts.productdiscount",
+    "pk": 1,
+    "fields": {
+        "title": "Скидка на товары электрические",
+        "description": "Скидка 30% до конца 2023 года. Успей купить!",
+        "date_start": "2023-10-10T20:49:30.435Z",
+        "date_finish": "2023-10-28T01:46:57Z",
+        "active": true,
+        "priority": 2,
+        "percent": 30,
+        "product": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "discounts.productdiscount",
+    "pk": 2,
+    "fields": {
+        "title": "Еще одна скидка на электро товары",
+        "description": "Делаем скидку 40% на одни и те же товары",
+        "date_start": "2023-10-10T20:49:24.622Z",
+        "date_finish": "2023-10-31T02:50:30Z",
+        "active": true,
+        "priority": 3,
+        "percent": 40,
+        "product": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "discounts.productdiscount",
+    "pk": 3,
+    "fields": {
+        "title": "Скидка 5 % на товары под pk 6 - 11",
+        "description": "Выбираю 5 случайных товаров , делаю для них скидку",
+        "date_start": "2023-10-10T20:49:14.550Z",
+        "date_finish": "2023-11-09T20:41:23Z",
+        "active": true,
+        "priority": 5,
+        "percent": 5,
+        "product": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            17
+        ]
+    }
+},
+{
+    "model": "discounts.categorydiscount",
+    "pk": 1,
+    "fields": {
+        "title": "Скидка 20% на  садовую технику",
+        "description": "Скидка на всю садовую технику до конца года",
+        "date_start": "2023-10-10T20:50:35.886Z",
+        "date_finish": "2023-11-17T01:30:06Z",
+        "active": true,
+        "priority": 2,
+        "category": 21,
+        "percent": 20
+    }
+},
+{
+    "model": "discounts.categorydiscount",
+    "pk": 2,
+    "fields": {
+        "title": "-4% На все смартфоны",
+        "description": "Скидка на категорию товаров -Смартфоны и аксессуары",
+        "date_start": "2023-10-10T20:50:29.027Z",
+        "date_finish": "2023-12-15T20:42:24Z",
+        "active": true,
+        "priority": 2,
+        "category": 9,
+        "percent": 4
+    }
+},
+{
+    "model": "discounts.basketdiscount",
+    "pk": 1,
+    "fields": {
+        "title": "Больше 5 тысяч",
+        "description": "Если товаров в корзине больше на сумму 5000 , кидка для всей корзины составляет 500.",
+        "date_start": "2023-10-10T20:50:11.909Z",
+        "date_finish": "2023-10-29T20:37:09Z",
+        "active": true,
+        "priority": 2,
+        "amount_money": "5000.00",
+        "discount_amount": 500,
+        "offer": [
+            73,
+            75,
+            76,
+            77
+        ]
+    }
+},
+{
+    "model": "discounts.basketdiscount",
+    "pk": 2,
+    "fields": {
+        "title": "600 скидка , на сумму 6000",
+        "description": "Тестовая скидка 600, если сумма корзины 6000",
+        "date_start": "2023-10-10T20:50:03.732Z",
+        "date_finish": "2023-10-21T20:36:58Z",
+        "active": true,
+        "priority": 1,
+        "amount_money": "6000.00",
+        "discount_amount": 600,
+        "offer": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+        ]
+    }
+},
+{
+    "model": "discounts.basketdiscount",
+    "pk": 3,
+    "fields": {
+        "title": "Скидка года! 1000",
+        "description": "Если сумма цены товаров составит больше 4000, скидка на корзину составит 1000!",
+        "date_start": "2023-10-10T20:49:56.153Z",
+        "date_finish": "2024-01-04T20:39:49Z",
+        "active": true,
+        "priority": 1,
+        "amount_money": "4000.00",
+        "discount_amount": 1000,
+        "offer": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+        ]
+    }
+}
+]

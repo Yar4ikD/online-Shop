@@ -1,0 +1,232 @@
+[
+{
+  "model": "order.productinorder",
+  "pk": 1,
+  "fields": {
+    "product": 3,
+    "order": 1,
+    "price": "433344.00",
+    "amount": 2
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 2,
+  "fields": {
+    "product": 12,
+    "order": 1,
+    "price": "23455.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 3,
+  "fields": {
+    "product": 58,
+    "order": 2,
+    "price": "22344.00",
+    "amount": 2
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 4,
+  "fields": {
+    "product": 14,
+    "order": 2,
+    "price": "23110.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 5,
+  "fields": {
+    "product": 53,
+    "order": 3,
+    "price": "30005.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 6,
+  "fields": {
+    "product": 7,
+    "order": 3,
+    "price": "3008.00",
+    "amount": 3
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 7,
+  "fields": {
+    "product": 11,
+    "order": 3,
+    "price": "20456.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 8,
+  "fields": {
+    "product": 9,
+    "order": 4,
+    "price": "2100.00",
+    "amount": 3
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 9,
+  "fields": {
+    "product": 62,
+    "order": 4,
+    "price": "900.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 10,
+  "fields": {
+    "product": 60,
+    "order": 5,
+    "price": "15000.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 11,
+  "fields": {
+    "product": 39,
+    "order": 5,
+    "price": "2560.00",
+    "amount": 2
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 12,
+  "fields": {
+    "product": 14,
+    "order": 5,
+    "price": "24000.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 13,
+  "fields": {
+    "product": 2,
+    "order": 6,
+    "price": "31000.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 14,
+  "fields": {
+    "product": 24,
+    "order": 6,
+    "price": "2500.00",
+    "amount": 4
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "order": 7,
+    "price": "40000.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 16,
+  "fields": {
+    "product": 8,
+    "order": 7,
+    "price": "3100.00",
+    "amount": 4
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "order": 8,
+    "price": "400.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 18,
+  "fields": {
+    "product": 55,
+    "order": 8,
+    "price": "35000.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 19,
+  "fields": {
+    "product": 23,
+    "order": 9,
+    "price": "4000.00",
+    "amount": 8
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 20,
+  "fields": {
+    "product": 50,
+    "order": 9,
+    "price": "900.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 21,
+  "fields": {
+    "product": 7,
+    "order": 9,
+    "price": "600.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 22,
+  "fields": {
+    "product": 48,
+    "order": 10,
+    "price": "45000.00",
+    "amount": 1
+  }
+},
+{
+  "model": "order.productinorder",
+  "pk": 23,
+  "fields": {
+    "product": 54,
+    "order": 10,
+    "price": "74466.00",
+    "amount": 1
+  }
+}
+]

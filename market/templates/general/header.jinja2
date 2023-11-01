@@ -1,0 +1,88 @@
+{% load static i18n %}
+
+<div class="ControlPanel">
+    <div class="wrap">
+        <div class="row ControlPanel-row">
+          <div class="row-block">
+            <div class="row ControlPanel-rowSplit">
+
+              <div class="row-block hide_700"><span class="ControlPanel-title">Follow Us</span>
+                <ul class="menu menu_img menu_smallImg ControlPanel-menu">
+                  <li class="menu-item"><a class="menu-link" href="#"><img src="{% static 'assets/img/icons/socialHeader/fb.svg' %}" alt="fb.svg"/></a>
+                  </li>
+                  <li class="menu-item"><a class="menu-link" href="#"><img src="{% static 'assets/img/icons/socialHeader/tw.svg' %}" alt="tw.svg"/></a>
+                  </li>
+                  <li class="menu-item"><a class="menu-link" href="#"><img src="{% static 'assets/img/icons/socialHeader/in.svg' %}" alt="in.svg"/></a>
+                  </li>
+                  <li class="menu-item"><a class="menu-link" href="#"><img src="{% static 'assets/img/icons/socialHeader/pt.svg' %}" alt="pt.svg"/></a>
+                  </li>
+                  <li class="menu-item"><a class="menu-link" href="#"><img src="{% static 'assets/img/icons/socialHeader/mail.svg' %}" alt="mail.svg"/></a>
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <nav class="row-block">
+            <div class="row ControlPanel-rowSplit">
+              <div class="row-block">
+                  {% block language %}
+                      {% include 'general/language_switch.jinja2' %}
+                  {% endblock %}
+                  <a class="ControlPanel-title" href="{% url 'profiles:login' %}">{% translate "Вход" %}</a>
+                  <a class="ControlPanel-title" href="{% url 'profiles:registration_user' %}">{% translate "Регистрация" %}</a>
+                  <a class="ControlPanel-title" href="{% url 'profiles:logout' %}">{% translate "Выход" %}</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+      <!--+div.menuModal#navigate
+      //    +menu([
+      //        ["Главная','index.html'],
+      //        ['Портфолио','index.html'],
+      //        ['Мои проекты','index.html'],
+      //        ['Контакты','index.html']
+      //    ], page === 'article'? 'Портфолио': 'Главная')._main
+
+      block
+      -->
+    </div>
+    <div class="wrap">
+        <div class="row Header-rowMain">
+        <div class="row-block Header-logo"><a class="logo" href="{% url 'shops:main-page' %}"><img class="logo-image" src="{% static 'assets/img/logo.png'%}" alt="logo.png"/></a>
+        </div>
+        <nav class="row-block row-block_right Header-menu">
+          <div class="menuModal" id="navigate">
+            <ul class="menu menu_main">
+              <li class="menu-item"><a class="menu-link" href="{% url 'shops:main-page' %}">{% translate "Главная" %}</a>
+              </li>
+
+              <li class="menu-item"><a class="menu-link" href="#">{% translate "Блог" %}</a>
+              </li>
+              <li class="menu-item"><span class="menu-label menu-label_success">Скидки</span><a class="menu-link" href="{% url 'shops:shops-catalog' %}">{% translate "Каталог" %}</a>
+              </li>
+
+              <li class="menu-item"><a class="menu-link" href="#">{% translate "Покупка" %}</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        {% block basket %}
+            {% include 'general/basket-header.jinja2' %}
+        {% endblock %}
+
+        <div class="row-block Header-trigger"><a class="menuTrigger" href="#navigate">
+            <div class="menuTrigger-content">{% translate "Показать навигацию" %}
+            </div><span></span><span></span><span></span></a>
+        </div>
+        </div>
+    </div>
+
+    <div class="Header-searchWrap">
+        {% include 'general/categories-button-content.jinja2' %}
+    </div>
+
+</div>

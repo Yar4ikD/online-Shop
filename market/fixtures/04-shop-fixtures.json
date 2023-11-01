@@ -1,0 +1,74 @@
+[
+  {
+    "model": "shops.shop",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "name": "Shop by Jessica Lane",
+      "phoneNumber": "+73053242132",
+      "adress": "9037 Colon Shoal Apt. 087\nCharlesstad, AZ 55603",
+      "email": "pattersonbelinda@example.org",
+      "legal_adress": "9037 Colon Shoal Apt. 087\nCharlesstad, AZ 55603"
+    }
+  },
+  {
+    "model": "shops.shop",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "name": "Shop by Matthew Cook",
+      "phoneNumber": "+79063830306",
+      "adress": "3377 Timothy Mount Suite 341\nAlexaburgh, VI 31244",
+      "email": "davidcole@example.org",
+      "legal_adress": "3377 Timothy Mount Suite 341\nAlexaburgh, VI 31244"
+    }
+  },
+  {
+    "model": "shops.shop",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "name": "Shop by Jessica Ramsey",
+      "phoneNumber": "+78401048002",
+      "adress": "115 Brooks Rest Apt. 955\nJenniferport, NJ 76895",
+      "email": "upatterson@example.org",
+      "legal_adress": "115 Brooks Rest Apt. 955\nJenniferport, NJ 76895"
+    }
+  },
+  {
+    "model": "shops.shop",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "name": "Shop by Chris Curtis",
+      "phoneNumber": "+72067204280",
+      "adress": "0181 Aguilar Parkways\nNorth Christopher, MT 09657",
+      "email": "stacie60@example.org",
+      "legal_adress": "0181 Aguilar Parkways\nNorth Christopher, MT 09657"
+    }
+  },
+  {
+    "model": "shops.shop",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "name": "Shop by Jennifer Chapman",
+      "phoneNumber": "+78323888505",
+      "adress": "99382 Anthony Tunnel Suite 002\nAllisonland, MO 92935",
+      "email": "rossbrianna@example.org",
+      "legal_adress": "99382 Anthony Tunnel Suite 002\nAllisonland, MO 92935"
+    }
+  },
+  {
+    "model": "shops.shop",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "name": "Shop by Michael Thomas",
+      "phoneNumber": "+71050046659",
+      "adress": "5179 Lynch Passage\nRayside, FM 99501",
+      "email": "mitchellkathryn@example.com",
+      "legal_adress": "5179 Lynch Passage\nRayside, FM 99501"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{% extends "general/base.jinja2" %}
+{% load static i18n %}
+
+{% block title %}
+    {% translate 'Корзина' %}
+{% endblock %}
+{% block content %}
+    <div class="Middle Middle_top">
+        <div class="Section">
+            <div class="wrap">
+            {% if basket %}
+                {% for item in basket %}
+                    {% with product=item.product amount=item.amount price=item.price offer_pk=item.offer_pk %}
+                        <div class="Cart-product">
+                            <div class="Cart-block Cart-block_row">
+                                <div class="Cart-block Cart-block_pict"><a class="Cart-pict" href="#"><img class="Cart-img" src="{{product.preview.url}}" alt="{{product.name}}" /></a>
+                                </div>
+                                <div class="Cart-block Cart-block_info"><a class="Cart-title" href="{% url "products:product_detail" product.pk %}"> {{product.name}}</a>
+                                    <div class="Cart-desc">{{product.description}}
+                                    </div>
+                                </div>
+                                <div class="Cart-block Cart-block_price">
+                                    <div class="Cart-price"> {{price}}&nbsp;$
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Cart-block Cart-block_row">
+                                <div class="Cart-block Cart-block_seller">
+                                    <!-- - var options = setOptions(items, ['value', 'selected', 'disabled']);-->
+                                </div>
+                                <div class="Cart-block Cart-block_amount">
+                                    <div class="Cart-amount">
+                                        <div class="Amount">
+                                            <a class="Amount-remove" href="{% url "basket:change_amount" offer_pk "-1" %}" ></a>
+                                                <span class="Amount-input form-input"> {{amount}} </span>
+                                            <a class="Amount-add" href="{% url "basket:change_amount" offer_pk "+1" %}" ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Cart-block Cart-block_delete">
+                                    <a class="Cart-delete" href="{% url "basket:remove_product" offer_pk %}"><img src="{% static "assets/img/icons/card/delete.svg" %}" alt="delete.svg" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endwith %}
+                {% endfor %}
+                    <div class="Cart-total">
+                        <div class="Cart-block Cart-block_total">
+                            <strong class="Cart-title">{% translate 'Итого' %}:
+                            </strong><span class="Cart-price">{{basket.get_total_price}}&nbsp;$</span>
+                        </div>
+                        <div class="Cart-block"><a class="btn btn_success btn_lg" href="{% url "order:make_order_step_1" %}">{% translate 'Оформить заказ' %}</a>
+                        </div>
+                    </div>
+            {% else %}
+                <h2>{% translate 'Ваша корзина пуста, скорее добавьте какой-либо товар!' %}<h2>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,100 @@
+﻿{% extends 'general/base.jinja2' %}
+{% load static i18n %}
+
+{% block title%}
+    {{ shop.name }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="Middle Middle_top">
+    <div class="Middle-top">
+      <div class="wrap">
+        <div class="Middle-header">
+          <h1 class="Middle-title">{% translate 'Подробнее' %}"{{ shop.name }}"
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="Section Section_column Section_columnLeft Section_columnWide">
+      <div class="wrap">
+        <div class="Section-column">
+          <div class="Section-columnSection Section-columnSection_mark">
+            <div class="media media_advantage">
+                <div class="media-image">
+                    <img src="{% static "assets/img/icons/advantages/mail.svg" %}" alt="quality.svg"/>
+                </div>
+              <div class="media-content">
+                <strong class="media-title">{% translate 'Электронная почта:' %}
+                </strong>
+                <p class="media-text">{{ shop.email }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="Section-columnSection Section-columnSection_mark">
+            <div class="media media_advantage">
+                <div class="media-image">
+                    <img src="{% static "assets/img/icons/advantages/phone.svg" %}" alt="quality.svg"/>
+                </div>
+              <div class="media-content">
+                <strong class="media-title">{% translate 'Номер телефона:' %}
+                </strong>
+                <p class="media-text">{{ shop.phoneNumber }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="Section-columnSection Section-columnSection_mark">
+            <div class="media media_advantage">
+                <div class="media-image">
+                    <img src="{% static "assets/img/icons/advantages/home.svg" %}" alt="quality.svg"/>
+                </div>
+              <div class="media-content">
+                <strong class="media-title">{% translate 'Адрес:' %}
+                </strong>
+                <p class="media-text">{{ shop.adress }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="Section-columnSection Section-columnSection_mark">
+            <div class="media media_advantage">
+              <div class="media-image"><img src="{% static "assets/img/icons/advantages/office.svg" %}" alt="quality.svg"/>
+              </div>
+              <div class="media-content">
+                <strong class="media-title">{% translate 'Юридический адрес:' %}
+                </strong>
+                <p class="media-text">{{ shop.legal_adress }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="Section-content">
+          <article class="Article">
+            <div class="Article-section">
+              <div class="row row_verticalCenter row_maxHalf">
+                <div class="row-block">
+                  <h2>{% translate 'Немного о нас:' %}
+                  </h2>
+                  <p>{% translate 'Тестовое описание магазина, но я даже не знаю что можно тут написать. У нас много чего возможно. Главное верить в себя и своё описание, а ещё не быть слишком самоуверенным.' %}
+                  </p>
+                  <p>{% translate 'Да-да, тут может быть вообще что угодно, но надеюсь это будет что-то приличное, а не как обычно. Хотя обычно прилично. Однако как-то решил подстраховаться. Ну, а нужную информацию вы видите слева или сверху, в зависимости от размера вашего экрна.' %}
+                  </p>
+                  <div><a class="btn btn_primary" href="#">{% translate 'Наш ассортимент' %}</a>
+                  </div>
+                </div>
+                <div class="row-block">
+                  <div class="pict"><img src="{% static "assets/img/content/home/info.png" %}" alt="slider.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

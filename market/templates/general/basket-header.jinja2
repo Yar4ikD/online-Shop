@@ -1,0 +1,21 @@
+{% load static %}
+{% load custom_tags %}
+
+    <div class="row-block">
+        <div class="CartBlock">
+            <a class="CartBlock-block" href="{% url "basket:basket_view" %}">
+                <img class="CartBlock-img" src="{% static 'assets/img/icons/cart.svg' %}" alt="cart.svg"/>
+                    <span class="CartBlock-amount">
+                        {% sum_amount request.session.basket %}
+                    </span>
+            </a>
+            <div class="CartBlock-block">
+                <span class="CartBlock-price">
+                        {% sum_price request.session.basket %}&nbsp;$
+                </span>
+                <div class="CartBlock">
+                    <a class="CartBlock-block" href={% url 'profiles:profile' %}><img class="CartBlock-img" src="{% static 'assets/img/icons/loon-icon.svg' %}" alt="loon-icon.svg"/></a>
+                </div>
+            </div>
+        </div>
+    </div>

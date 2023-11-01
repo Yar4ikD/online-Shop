@@ -1,0 +1,39 @@
+yml_catalog:
+  shop:
+    shopID: 5
+    offers:
+      1:
+        name: Новый товар импорта 3
+        description: Описания товара
+        image: https://avatars.mds.yandex.net/get-mpic/1642819/img_id8645818683197701740.jpeg/orig
+        category: Электроника/Смартфоны и аксессуары
+        price: 1200
+        count: 345
+        params:
+          Цвет: Красный
+          Ширина: 1080 см
+      2:
+        name: Новый товар импорта 2
+        description: Описания товара
+        image: Ссылка на изображение
+        category: Тест
+        price: 1200
+        count: 345
+        params:
+          Цвет: Красный
+          Ширина: 1080 см
+  images:
+    1:
+      pk: 1
+      image:
+        '1': 'https://avatars.mds.yandex.net/get-mpic/1602935/img_id1700656016594888649.jpeg/orig'
+        '2': 'https://avatars.mds.yandex.net/get-mpic/4291905/img_id475268642841682231.jpeg/orig'
+        '3': 'https://avatars.mds.yandex.net/get-mpic/3694390/img_id5032809731262221020.jpeg/orig'
+        '4': 'https://avatars.mds.yandex.net/get-mpic/4977172/img_id7193288949811411231.jpeg/orig'
+    3:
+      pk: 3
+      image:
+        '1': 'https://avatars.mds.yandex.net/get-mpic/2017118/img_id335163686500592784.jpeg/orig'
+        '2': 'https://avatars.mds.yandex.net/get-mpic/6303765/img_id3348479232681560312.jpeg/orig'
+        '3': 'https://avatars.mds.yandex.net/get-mpic/5236304/img_id7613299069358397798.jpeg/orig'
+        '4': 'https://avatars.mds.yandex.net/get-mpic/4944925/img_id5005233789027629624.jpeg/orig'

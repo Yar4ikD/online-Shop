@@ -1,0 +1,30 @@
+{% load static %}
+{% load banners_return_data %}
+
+{% load i18n %}
+
+
+{% query_set as banners %}
+
+<div class="Section">
+    <div class="wrap">
+        <div class="BannersHome">
+            {% for banner in banners %}
+                <a class="BannersHomeBlock" href="{% url 'shops:shops-catalog' cat=banner.category.name %}">
+                    <div class="BannersHomeBlock-row">
+                        <div class="BannersHomeBlock-block">
+                            <strong class="BannersHomeBlock-title">{{ banner.title }}
+                            </strong>
+                            <div class="BannersHomeBlock-content">{% translate 'от' %}&#32;<span class="BannersHomeBlock-price">${{ banner.price }}</span>
+                            </div>
+                        </div>
+                        <div class="BannersHomeBlock-block">
+                            <div class="BannersHomeBlock-img"><img src="{{ banner.image.url }}" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

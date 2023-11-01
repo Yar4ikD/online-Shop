@@ -1,0 +1,406 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-15 18:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: basket/models.py:12
+msgid "корзина пользователя"
+msgstr ""
+
+#: basket/models.py:17
+msgid "пользователь корзины"
+msgstr ""
+
+#: basket/models.py:23
+msgid "предложения магазинов"
+msgstr ""
+
+#: basket/models.py:27
+msgid "продукт магазина"
+msgstr ""
+
+#: basket/models.py:30 order/models.py:92
+msgid "количество"
+msgstr ""
+
+#: comments/forms.py:19
+msgid "Отзыв должен иметь минимум 2 слова."
+msgstr ""
+
+#: comments/models.py:16
+msgid "отзыв"
+msgstr ""
+
+#: comments/models.py:17
+msgid "отзывы"
+msgstr ""
+
+#: comments/models.py:19 history/models.py:10 order/models.py:19
+msgid "пользователь"
+msgstr ""
+
+#: comments/models.py:20 products/models.py:26 shops/models.py:55
+#: sliders/models.py:23
+msgid "продукт"
+msgstr ""
+
+#: comments/models.py:21
+msgid "текст отзыва"
+msgstr ""
+
+#: comments/models.py:22
+msgid "дата публикации"
+msgstr ""
+
+#: config/settings.py:193
+msgid "English"
+msgstr ""
+
+#: config/settings.py:193
+msgid "Russian"
+msgstr ""
+
+#: history/models.py:12
+msgid "товары в истории"
+msgstr ""
+
+#: history/models.py:17
+msgid "история просмотров"
+msgstr ""
+
+#: order/forms.py:13
+msgid "Введите имя, фамилию и отчество"
+msgstr ""
+
+#: order/forms.py:20
+msgid "Введите телефон"
+msgstr ""
+
+#: order/forms.py:27
+msgid "Введите почту"
+msgstr ""
+
+#: order/forms.py:44
+msgid "Введите город доставки"
+msgstr ""
+
+#: order/forms.py:51
+msgid "Введите адрес доставки"
+msgstr ""
+
+#: order/models.py:12 profiles/models.py:14
+msgid "Формат номера телефона должен быть: +79999999999 или 89999999999"
+msgstr ""
+
+#: order/models.py:16 order/models.py:90
+msgid "заказ"
+msgstr ""
+
+#: order/models.py:17
+msgid "заказы"
+msgstr ""
+
+#: order/models.py:20
+msgid "ФИО заказчика"
+msgstr ""
+
+#: order/models.py:21 products/models.py:34
+msgid "дата добавления"
+msgstr ""
+
+#: order/models.py:22
+msgid "email"
+msgstr ""
+
+#: order/models.py:23 profiles/models.py:28
+msgid "номер телефона"
+msgstr ""
+
+#: order/models.py:25 order/models.py:87
+msgid "продукты в заказе"
+msgstr ""
+
+#: order/models.py:27 order/models.py:35
+msgid "статус заказа"
+msgstr ""
+
+#: order/models.py:28
+msgid "доставка"
+msgstr ""
+
+#: order/models.py:36
+msgid "статусы заказов"
+msgstr ""
+
+#: order/models.py:38
+msgid "название статуса"
+msgstr ""
+
+#: order/models.py:55
+msgid "Онлайн картой"
+msgstr ""
+
+#: order/models.py:56 order/views.py:100
+msgid "Онлайн со случайного счета"
+msgstr ""
+
+#: order/models.py:63
+msgid "доставка заказа"
+msgstr ""
+
+#: order/models.py:64
+msgid "доставки заказов"
+msgstr ""
+
+#: order/models.py:70
+msgid "тип доставки"
+msgstr ""
+
+#: order/models.py:72
+msgid "город доставки"
+msgstr ""
+
+#: order/models.py:73
+msgid "адрес доставки"
+msgstr ""
+
+#: order/models.py:78
+msgid "тип оплаты"
+msgstr ""
+
+#: order/models.py:86 order/models.py:89
+msgid "продукт в заказе"
+msgstr ""
+
+#: order/models.py:91 shops/models.py:43
+msgid "цена"
+msgstr ""
+
+#: order/services/make_order.py:119 order/views.py:84 order/views.py:148
+msgid "Экспресс доставка"
+msgstr ""
+
+#: products/models.py:10 products/models.py:29 products/models.py:54
+msgid "наименование"
+msgstr ""
+
+#: products/models.py:11 products/models.py:31 sliders/models.py:22
+msgid "описание"
+msgstr ""
+
+#: products/models.py:15 products/models.py:36 sliders/models.py:39
+msgid "категория"
+msgstr ""
+
+#: products/models.py:16
+msgid "категории"
+msgstr ""
+
+#: products/models.py:27
+msgid "продукты"
+msgstr ""
+
+#: products/models.py:30 products/models.py:52
+msgid "характеристики"
+msgstr ""
+
+#: products/models.py:38
+msgid "ограниченный тираж"
+msgstr ""
+
+#: products/models.py:51
+msgid "характеристика"
+msgstr ""
+
+#: products/models.py:64
+msgid "изображение продукта"
+msgstr ""
+
+#: products/models.py:65
+msgid "изображения продукта"
+msgstr ""
+
+#: products/models.py:78
+msgid "свойство продукта"
+msgstr ""
+
+#: products/models.py:79
+msgid "свойства продукта"
+msgstr ""
+
+#: products/models.py:83
+msgid "значение"
+msgstr ""
+
+#: products/views.py:92
+msgid "Файл успешно загружен."
+msgstr ""
+
+#: profiles/forms.py:32 profiles/forms.py:129
+msgid "Такая почта уже зарегистрированная"
+msgstr ""
+
+#: profiles/forms.py:46
+msgid "Вы ввели не корректные данные."
+msgstr ""
+
+#: profiles/forms.py:82
+msgid "Имя"
+msgstr ""
+
+#: profiles/forms.py:87
+msgid "Фамилия"
+msgstr ""
+
+#: profiles/forms.py:113
+msgid "Тут можно изменить пароль"
+msgstr ""
+
+#: profiles/forms.py:120
+msgid "Введите пароль повторно"
+msgstr ""
+
+#: profiles/models.py:23
+msgid "профиль"
+msgstr ""
+
+#: profiles/models.py:24
+msgid "профили"
+msgstr ""
+
+#: profiles/models.py:27
+msgid "адрес"
+msgstr ""
+
+#: profiles/models.py:29
+msgid "баланс аккаунта"
+msgstr ""
+
+#: profiles/models.py:30
+msgid "аватарка"
+msgstr ""
+
+#: profiles/views.py:129
+msgid "Размер файла не должен превышать 2Мб"
+msgstr ""
+
+#: profiles/views.py:137
+msgid "Профиль успешно обновлен"
+msgstr ""
+
+#: profiles/views.py:146
+msgid "Пароли не совпадают"
+msgstr ""
+
+#: shops/forms.py:24
+msgid "Ошибка формы фильтр, поле - цена"
+msgstr ""
+
+#: shops/models.py:14
+msgid "магазин"
+msgstr ""
+
+#: shops/models.py:15
+msgid "магазины"
+msgstr ""
+
+#: shops/models.py:18
+msgid "название"
+msgstr ""
+
+#: shops/models.py:23
+msgid "товары в магазине"
+msgstr ""
+
+#: shops/models.py:26
+msgid "адресс"
+msgstr ""
+
+#: shops/models.py:27
+msgid "почта"
+msgstr ""
+
+#: shops/models.py:28
+msgid "юридический адресс"
+msgstr ""
+
+#: shops/models.py:38
+msgid "предложение"
+msgstr ""
+
+#: shops/models.py:39
+msgid "предложения"
+msgstr ""
+
+#: shops/models.py:44
+msgid "остаток"
+msgstr ""
+
+#: shops/models.py:51
+msgid "ограниченное предложение"
+msgstr ""
+
+#: shops/models.py:52
+msgid "ограниченные предложения"
+msgstr ""
+
+#: shops/models.py:57
+msgid "старая цена"
+msgstr ""
+
+#: shops/models.py:58
+msgid "новая цена"
+msgstr ""
+
+#: sliders/models.py:18
+msgid "слайдер"
+msgstr ""
+
+#: sliders/models.py:19
+msgid "слайдеры"
+msgstr ""
+
+#: sliders/models.py:21
+msgid "заголовок"
+msgstr ""
+
+#: sliders/models.py:24
+msgid "изображение слайдера"
+msgstr ""
+
+#: sliders/models.py:34
+msgid "баннер"
+msgstr ""
+
+#: sliders/models.py:35
+msgid "баннера"
+msgstr ""
+
+#: sliders/models.py:37
+msgid "название категории товаров"
+msgstr ""
+
+#: sliders/models.py:41
+msgid "изображение баннера"
+msgstr ""
+
+#: sliders/models.py:42
+msgid "цена от"
+msgstr ""

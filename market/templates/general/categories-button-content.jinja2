@@ -1,0 +1,65 @@
+{% load static %}
+{% load i18n %}
+{% load catalog_data %}
+{% query_set as categories %}
+
+<div class="wrap">
+    <div class="Header-categories">
+      <div class="CategoriesButton">
+        <div class="CategoriesButton-title">
+          <div class="CategoriesButton-icon"><img src="{% static 'assets/img/icons/allDep.svg' %}" alt="allDep.svg"/>
+          </div><span class="CategoriesButton-text">{% translate "Все категории" %}</span>
+          <div class="CategoriesButton-arrow">
+          </div>
+        </div>
+
+        <div class="CategoriesButton-content">
+            {% for category in categories %}
+
+                {% if not category.parent %}
+
+                    <div class="CategoriesButton-link">
+                        <a href="{% url 'shops:shops-catalog' cat=category.name %}">
+                            <div class="CategoriesButton-icon">
+                                <img src="{% static 'assets/img/icons/departments/7.svg' %}" alt="7.svg" />
+                            </div>
+                            <span class="CategoriesButton-text">{{ category.name }}</span>
+                        </a>
+
+                        <a class="CategoriesButton-arrow" href="#"></a>
+
+                        <div class="CategoriesButton-submenu">
+                            {% for subCat in categories %}
+                                {% if subCat.parent.pk == category.pk %}
+                                    <a class="CategoriesButton-link" href="{% url 'shops:shops-catalog' cat=subCat.name %}">
+                                        <div class="CategoriesButton-icon">
+                                            <img src="{% static 'assets/img/icons/departments/1.svg' %}" alt="1.svg" />
+                                        </div>
+                                        <span class="CategoriesButton-text">{{ subCat.name }}</span>
+                                    </a>
+                                {% endif %}
+
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                {% endif %}
+
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="Header-searchLink"><img src="{% static 'assets/img/icons/search.svg' %}" alt="search.svg"/>
+    </div>
+
+    <div class="Header-search">
+        <div class="search">
+            <form class="form form_search" action="#" method="post">
+                <input class="search-input" id="query" name="query" type="text" placeholder="NVIDIA GeForce RTX 3060"/>
+                <button class="search-button" type="submit" name="search" id="search"><img src="{% static 'assets/img/icons/search.svg' %}" alt="search.svg"/>{% translate "Поиск" %}
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

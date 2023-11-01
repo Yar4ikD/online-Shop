@@ -1,0 +1,37 @@
+[
+{
+  "model": "order.orderstatus",
+  "pk": 1,
+  "fields": {
+    "name": "создан"
+  }
+},
+{
+  "model": "order.orderstatus",
+  "pk": 2,
+  "fields": {
+    "name": "оплачен"
+  }
+},
+{
+  "model": "order.orderstatus",
+  "pk": 3,
+  "fields": {
+    "name": "доставляется"
+  }
+},
+{
+  "model": "order.orderstatus",
+  "pk": 4,
+  "fields": {
+    "name": "завершен"
+  }
+},
+{
+  "model": "order.orderstatus",
+  "pk": 5,
+  "fields": {
+    "name": "отменен"
+  }
+}
+]

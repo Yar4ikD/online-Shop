@@ -1,0 +1,102 @@
+[
+{
+  "model": "order.delivery",
+  "pk": 1,
+  "fields": {
+    "delivery_type": "Обычная доставка",
+    "city": "Пермь",
+    "address": "ул. Емельянова, д.99, кв.54",
+    "pay": "Онлайн со случайного счета"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 2,
+  "fields": {
+    "delivery_type": "Обычная доставка",
+    "city": "Омск",
+    "address": "ул.  Речная, д.4, кв.3",
+    "pay": "Онлайн со случайного счета"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 3,
+  "fields": {
+    "delivery_type": "Экспресс доставка",
+    "city": "Краснодар",
+    "address": "ул.  Кузбасская, д.7, кв.81",
+    "pay": "Онлайн со случайного счета"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 4,
+  "fields": {
+    "delivery_type": "Обычная доставка",
+    "city": "Санкт-Петербург",
+    "address": "ул.  Фрунзе, д.76, кв.432",
+    "pay": "Онлайн со случайного счета"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 5,
+  "fields": {
+    "delivery_type": "Экспресс доставка",
+    "city": "Брянск",
+    "address": "ул. Ленина, д.30, кв.1",
+    "pay": "Онлайн картой"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 6,
+  "fields": {
+    "delivery_type": "Обычная доставка",
+    "city": "Мурманск",
+    "address": "ул. Тверская, д.11, кв.98",
+    "pay": "Онлайн картой"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 7,
+  "fields": {
+    "delivery_type": "Экспресс доставка",
+    "city": "Тверь",
+    "address": "ул. Набережная, д.4, кв.8",
+    "pay": "Онлайн со случайного счета"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 8,
+  "fields": {
+    "delivery_type": "Обычная доставка",
+    "city": "Самара",
+    "address": "ул. Солодова, д.5, кв.41",
+    "pay": "Онлайн со случайного счета"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 9,
+  "fields": {
+    "delivery_type": "Обычная доставка",
+    "city": "Екатеринбург",
+    "address": "ул. Победы, д.54, кв.4",
+    "pay": "Онлайн картой"
+  }
+},
+{
+  "model": "order.delivery",
+  "pk": 10,
+  "fields": {
+    "delivery_type": "Экспресс доставка",
+    "city": "Москва",
+    "address": "ул. Победы, д.54, кв.4",
+    "pay": "Онлайн картой"
+  }
+}
+]

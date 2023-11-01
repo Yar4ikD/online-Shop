@@ -1,0 +1,43 @@
+{% extends "general/base.jinja2" %}
+
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+    {% translate "Главная страница интернет магазина MEGAMO." %}
+{% endblock %}
+
+{% block slider %}
+    {% include 'sliders/block-slider.jinja2' %}
+{% endblock %}
+
+{% block content %}
+    <div class="Middle">
+
+        {% block banners-section %}
+            {% include 'sliders/banners-section.jinja2' %}
+        {% endblock %}
+
+        <div class="Section Section_column Section_columnLeft Section_columnDesktop">
+            <div class="wrap">
+
+                {% include 'main/section-columnDesktop-limited-product.jinja2' %}
+
+                <div class="Section-content">
+                    <header class="Section-header">
+                        <h2 class="Section-title">{% translate "Популярные товары" %}
+                        </h2>
+                    </header>
+                    <div class="Cards">
+                        {% include 'main/index-popular-products.jinja2' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Section Section_column Section_columnRight">
+            {% include 'main/section-columnRight-limited-products.jinja2' %}
+        </div>
+
+    </div>
+{% endblock %}

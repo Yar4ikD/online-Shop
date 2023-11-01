@@ -1,0 +1,142 @@
+[
+  {
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+      "user": 4,
+      "customer": "Зубов Григорий Тимофеевич",
+      "date_added": "2023-10-14T11:27:01.054Z",
+      "email": "test@test.ru",
+      "phone": "+79999999999",
+      "order_status": 1,
+      "delivery": 2,
+      "is_paid": true
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 2,
+    "fields": {
+      "user": 4,
+      "customer": "Зубов Григорий Тимофеевич",
+      "date_added": "2023-10-14T09:55:13.724Z",
+      "email": "test@test.ru",
+      "phone": "+79999999999",
+      "order_status": 2,
+      "delivery": 3,
+      "is_paid": true
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 3,
+    "fields": {
+      "user": 5,
+      "customer": "Мамонтов Шамиль Владимирович",
+      "date_added": "2023-09-20T14:44:21.339Z",
+      "email": "sergei@mail.ru",
+      "phone": "+79841324423",
+      "order_status": 2,
+      "delivery": 4,
+      "is_paid": true
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "customer": "Мамонтов Шамиль Владимирович",
+      "date_added": "2023-09-20T14:44:17.914Z",
+      "email": "sergei@mail.ru",
+      "phone": "+79841324423",
+      "order_status": 2,
+      "delivery": 1,
+      "is_paid": true
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "customer": "Туманов Михаил Сергеевич",
+      "date_added": "2023-09-20T14:43:56.169Z",
+      "email": "tuman@gmail.com",
+      "phone": "+79543222227",
+      "order_status": 3,
+      "delivery": 5,
+      "is_paid": false
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "customer": "Туманов Михаил Сергеевич",
+      "date_added": "2023-09-20T14:43:52.335Z",
+      "email": "tuman@gmail.com",
+      "phone": "+79543222227",
+      "order_status": 5,
+      "delivery": 6,
+      "is_paid": false
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "customer": "Мешков Олег Евгеньевич",
+      "date_added": "2023-09-20T14:43:37.069Z",
+      "email": "mitrofan@mail.ru",
+      "phone": "+79018453478",
+      "order_status": 1,
+      "delivery": 7,
+      "is_paid": false
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "customer": "Мешков Олег Евгеньевич",
+      "date_added": "2023-09-20T14:43:33.075Z",
+      "email": "mitrofan@mail.ru",
+      "phone": "+79018453478",
+      "order_status": 4,
+      "delivery": 8,
+      "is_paid": true
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 9,
+    "fields": {
+      "user": 3,
+      "customer": "Курганов Сергей Викторович",
+      "date_added": "2023-09-20T14:43:13.380Z",
+      "email": "serj@mail.ru",
+      "phone": "+79003242211",
+      "order_status": 2,
+      "delivery": 10,
+      "is_paid": true
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 10,
+    "fields": {
+      "user": 3,
+      "customer": "Курганов Сергей Викторович",
+      "date_added": "2023-09-20T14:42:42.632Z",
+      "email": "serj@mail.ru",
+      "phone": "+79003242211",
+      "order_status": 1,
+      "delivery": 9,
+      "is_paid": false
+    }
+  }
+]

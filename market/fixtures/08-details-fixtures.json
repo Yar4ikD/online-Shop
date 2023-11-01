@@ -1,0 +1,114 @@
+[
+  {
+    "model": "products.detail",
+    "pk": 7,
+    "fields": {
+      "name": "Материал"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 8,
+    "fields": {
+      "name": "Цвет"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 9,
+    "fields": {
+      "name": "Тип"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 10,
+    "fields": {
+      "name": "Назначение"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 11,
+    "fields": {
+      "name": "Высота"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 12,
+    "fields": {
+      "name": "Особенности"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 13,
+    "fields": {
+      "name": "Комплектация"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 14,
+    "fields": {
+      "name": "Вес"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 15,
+    "fields": {
+      "name": "Ручка"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 16,
+    "fields": {
+      "name": "Длина"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 17,
+    "fields": {
+      "name": "Ширина"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 18,
+    "fields": {
+      "name": "Количество зубьев"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 19,
+    "fields": {
+      "name": "Давление"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 20,
+    "fields": {
+      "name": "Производительность"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 22,
+    "fields": {
+      "name": "Тип корма"
+    }
+  },
+  {
+    "model": "products.detail",
+    "pk": 23,
+    "fields": {
+      "name": "Макс. разрешение"
+    }
+  }
+]

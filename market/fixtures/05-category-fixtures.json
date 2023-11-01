@@ -1,0 +1,155 @@
+[
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Электроника",
+      "description": "Электроника",
+      "parent": null
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Дача и сад",
+      "description": "Дача и сад",
+      "parent": null
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "Строительство и ремонт",
+      "description": "Строительство и ремонт",
+      "parent": null
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+      "name": "Одежда и обувь",
+      "description": "Одежда и обувь",
+      "parent": null
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 8,
+    "fields": {
+      "name": "Зоотовары",
+      "description": "Зоотовары",
+      "parent": null
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 9,
+    "fields": {
+      "name": "Смартфоны и аксессуары",
+      "description": "Широкий выбор смартфонов от ведущих производителей и разнообразные аксессуары для них.",
+      "parent": 4
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 10,
+    "fields": {
+      "name": "Ноутбуки и компьютеры",
+      "description": "Высокопроизводительные ноутбуки, настольные компьютеры и комплектующие.",
+      "parent": 4
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 11,
+    "fields": {
+      "name": "Аудио и видео техника",
+      "description": "Наушники, колонки, телевизоры, проекторы, и другие аудио- и видеоустройства.",
+      "parent": 4
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 15,
+    "fields": {
+      "name": "Мужская одежда",
+      "description": "Стильная и удобная одежда для мужчин на все случаи жизни. От повседневных нарядов до формальных событий.",
+      "parent": 7
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 16,
+    "fields": {
+      "name": "Женская одежда",
+      "description": "Широкий ассортимент модных нарядов, которые подчеркнут вашу индивидуальность и стиль.",
+      "parent": 7
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 17,
+    "fields": {
+      "name": "Обувь",
+      "description": "Комфортная и стильная обувь для всех возрастов",
+      "parent": 7
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 18,
+    "fields": {
+      "name": "Стройматериалы",
+      "description": "Широкий выбор материалов для строительства и ремонта",
+      "parent": 6
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 19,
+    "fields": {
+      "name": "Инструменты",
+      "description": "Профессиональные и бытовые инструменты для самостоятельного ремонта",
+      "parent": 6
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 20,
+    "fields": {
+      "name": "Отделочные материалы",
+      "description": "Обои, плитка, лаки и краски - все, чтобы придать вашему дому индивидуальность.",
+      "parent": 6
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 21,
+    "fields": {
+      "name": "Садовая техника",
+      "description": "Незаменимый помощник в уходе за вашим садом и приусадебным участком",
+      "parent": 5
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 22,
+    "fields": {
+      "name": "Садовая мебель",
+      "description": "Для создания уютной и стильной атмосферы на вашем приусадебном участке",
+      "parent": 5
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 23,
+    "fields": {
+      "name": "Садовые инструменты",
+      "description": "Инструменты для работы на садовом участке",
+      "parent": 5
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+{
+    "model": "sliders.banner",
+    "pk": 1,
+    "fields": {
+        "title": "Умные колонки",
+        "category": 9,
+        "image": "banners/image/Умные_колонки_smart_yand.png",
+        "price": "399.00"
+    }
+},
+{
+    "model": "sliders.banner",
+    "pk": 2,
+    "fields": {
+        "title": "Стройматериалы",
+        "category": 18,
+        "image": "banners/image/Стройматериалы_stroimat.png",
+        "price": "2999.00"
+    }
+},
+{
+    "model": "sliders.banner",
+    "pk": 3,
+    "fields": {
+        "title": "Зоотовары",
+        "category": 8,
+        "image": "banners/image/Зоотовары_dog_goods.png",
+        "price": "4699.00"
+    }
+},
+{
+    "model": "sliders.banner",
+    "pk": 4,
+    "fields": {
+        "title": "Аудио техника",
+        "category": 11,
+        "image": "banners/image/Аудио_техника_sounds_tools.png",
+        "price": "6999.00"
+    }
+},
+{
+    "model": "sliders.banner",
+    "pk": 5,
+    "fields": {
+        "title": "Видео техника",
+        "category": 11,
+        "image": "banners/image/Видео_техника_photoaparat.png",
+        "price": "6999.00"
+    }
+}
+]

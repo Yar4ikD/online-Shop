@@ -1,0 +1,20 @@
+{% extends "general/base.jinja2" %}
+{% load static i18n %}
+{% block title %}
+    {% translate "Загрузить файл товаров" %}
+{% endblock %}
+{% block content %}
+    <div class="Middle Middle_top">
+        <div class="Section">
+            <div class="wrap">
+                <h1 class="my_modal-title">{% translate "Загрузить файл товаров" %}</h1>
+
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn_muted">{% translate "Загрузить файл" %}</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

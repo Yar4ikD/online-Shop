@@ -1,0 +1,21 @@
+{% extends "general/base.jinja2" %}
+
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+    Cписок акций.
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h1>Доступные скидки:</h1>
+    </div>
+    <div>
+        {%for discount in discounts %}
+            <h3>{{ discount.title }}</h3>
+            {{ discount.description }}
+
+        {% endfor %}
+    </div>
+{% endblock %}

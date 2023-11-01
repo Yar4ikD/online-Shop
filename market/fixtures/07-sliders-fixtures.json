@@ -1,0 +1,32 @@
+[
+{
+    "model": "sliders.slider",
+    "pk": 1,
+    "fields": {
+        "title": "Пила для вашей дачи!",
+        "description": "Акция 2-я пила в подарок! Успей купить сегодня!",
+        "product": 3,
+        "image": "sliders/image/Пила_для_вашей_дачи_stee.png"
+    }
+},
+{
+    "model": "sliders.slider",
+    "pk": 2,
+    "fields": {
+        "title": "Iphone 11",
+        "description": "Купи со скидкой 70%! Только эти 2 дня! Не упусти свой шанс",
+        "product": 49,
+        "image": "sliders/image/Iphone_11_iphone.png"
+    }
+},
+{
+    "model": "sliders.slider",
+    "pk": 3,
+    "fields": {
+        "title": "Беспроводные клавиатуры",
+        "description": "Клавиатура со скидкой 90%! В подарок 2 коплекта запасных кнопок. Спеши купить! Акция до конца месяца!",
+        "product": 58,
+        "image": "sliders/image/Беспроводные_клавиатуры_keyboard.png"
+    }
+}
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "model": "profiles.profile",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "address": "Москва, ул. Большая 2",
+      "phone": "+77868938442",
+      "balance": "0.00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "address": "Тула, ул. Серп д.34",
+      "phone": "+71803342891",
+      "balance": "0.00",
+      "avatar": "users/2/user-details/копатыч_hliFO77.png"
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "address": "Маями, ул. Советская 2",
+      "phone": "+71773068447",
+      "balance": "0.00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "address": "Париж, ул. Простая 143",
+      "phone": "+75157346069",
+      "balance": "0.00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "address": "Берлин, ул. Берлин 9",
+      "phone": "+73958248083",
+      "balance": "0.00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "address": "Казань, ул. Петрова, д.7",
+      "phone": "+78002000202",
+      "balance": "0.00",
+      "avatar": "users/6/user-details/лосяш_gl4puuf.png"
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "address": "Москва, ул. Белорусская, 3",
+      "phone": "+70000000002",
+      "balance": "0.00",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "profiles.profile",
+    "pk": 9,
+    "fields": {
+      "user": 8,
+      "address": "Поле чудес",
+      "phone": "+79999999999",
+      "balance": "0.00",
+      "avatar": "users/9/user-details/кар-карыч.png"
+    }
+  }
+]

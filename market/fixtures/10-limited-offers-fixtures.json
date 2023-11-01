@@ -1,0 +1,38 @@
+[
+{
+    "model": "shops.limitedoffer",
+    "pk": 5,
+    "fields": {
+        "product": 5,
+        "old_price": "12900.00",
+        "new_price": "6900.00"
+    }
+},
+{
+    "model": "shops.limitedoffer",
+    "pk": 6,
+    "fields": {
+        "product": 53,
+        "old_price": "123000.00",
+        "new_price": "99000.00"
+    }
+},
+{
+    "model": "shops.limitedoffer",
+    "pk": 7,
+    "fields": {
+        "product": 51,
+        "old_price": "250000.00",
+        "new_price": "125000.00"
+    }
+},
+{
+    "model": "shops.limitedoffer",
+    "pk": 8,
+    "fields": {
+        "product": 60,
+        "old_price": "59000.00",
+        "new_price": "22000.00"
+    }
+}
+]
